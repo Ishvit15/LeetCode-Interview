@@ -11,5 +11,6 @@ class BuyAndSellStock_2{
             if(prices[i-1] < prices[i])
                 profit = profit + prices[i]-prices[i-1];
         }
+        return profit;
     }
 }
