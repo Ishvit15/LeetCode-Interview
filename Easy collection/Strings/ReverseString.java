@@ -4,9 +4,9 @@ class ReverseString{
         int left = 0 , right = str.length-1;    
         while (left < right) {
             // Swapping the letters of the String
-            char temp = s[left];
-            s[left++] = s[right];
-            s[right--] = temp;
+            char temp = str[left];
+            str[left++] = str[right];
+            str[right--] = temp;
         }
     }
 }
