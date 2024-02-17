@@ -8,8 +8,8 @@ class RemoveDuplicatesFromSortedArray {
             /*
             If condition to remove the duplicate numbers from the array
             */
-            if(nums[i] != nums[res-1]){
-                nums[res] = nums[i]; 
+            if(nums[i] != nums[result-1]){
+                nums[result] = nums[i]; 
                 result++;
             }
         }
